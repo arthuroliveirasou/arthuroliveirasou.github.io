@@ -1,0 +1,106 @@
+/* PADRÕES CORPO */
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Oxygen, sans-serif;
+  font-size: 15px;
+  color: rgb(8, 8, 8);
+  line-height: normal;}
+
+body * {
+  padding: 0;
+  text-align: center;}
+
+/* CABEÇALHO */
+#cabecalho {
+  top: 0;
+  position: fixed;
+  inline-size: 99%;
+  block-size: 75px;
+  max-block-size: 30%;
+  margin: auto;
+  padding: 0.5%;
+  background-color: aquamarine;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;}
+
+#cabecalho * {
+  margin: 0;
+  text-align: center;}
+
+#menu {
+  margin-top: 1em;
+  margin-bottom: 1em;}
+
+#menu li {
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 2px;
+  text-align: center;
+  inline-size: 5rem;
+  max-inline-size: 20%;}
+
+#menu li a {
+  text-decoration: none;}
+
+/* PRINCIPAL */
+main {
+  margin: 3%;
+  margin-top: 90px;}
+
+#minha_foto {
+  max-width: 80%;
+  border-radius: 10px;}
+
+#articles * {
+  vertical-align: middle;}
+
+.lado-esquerdo {
+  display: inline-block;
+  max-width: 60%;}
+
+.lado-direito {
+  display: inline-block;
+  max-width: 30%;
+  padding: 1em;}
+
+#articles p {
+  text-align: left;}
+
+#lessons {
+  text-align: center;}
+
+#lessons div {
+  display: inline-block;
+  padding: 2em;}
+
+#lessons div ol li , #lessons div ul li {
+  list-style: none;
+  text-align: left;}
+
+#pcconfigs {
+  text-align: center;}
+
+#pcconfigs table {
+  margin: auto;}
+
+#pcconfigs table td {
+  padding-inline: 1em;
+  text-align: left;
+  border-bottom: 2px solid gray;}
+
+#pcconfigs table th {
+  max-width: 125px;
+  padding-inline: 1em;
+  text-align: left;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;}
+
+/* RODAPÉ */
+#rodape {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;}
+
+#rodape p {
+  margin: 0;}
