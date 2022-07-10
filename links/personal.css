@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%), linear-gradient(165deg, #480045 25%, #E9EAAF 100%), linear-gradient(145deg, #480045 25%, #E9EAAF 100%), linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%), linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1D566E 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);
+  background-blend-mode: overlay, overlay, overlay, multiply, normal;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+.link-body {
+  background-size: cover!important;
+  background-position: center center!important;
+  background-repeat: no-repeat!important;
+  min-height: 100%;
+}
+
+main {
+  display: block;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15;
+  margin-right: -15;
+
+}
+
+h1 {
+  color: #fff;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+}
+
+#headerdiv, #maindiv {
+  width: 100%;
+  max-width: 500px;
+}
+
+.flexdiv {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  align-content: center;
+}
+.flexdiv * {
+  margin:auto;
+}
+
+#profile-img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  margin: 10px;
+  border-width: 3px;
+  border-color: #FF8C00;
+  border-style: outset;
+  border-radius: 100%;
+}
+#social {
+  margin-top: 10px;
+}
+#social a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+.sections h2 {
+  padding: 0.6rem;
+  color: #FFF;
+}
+
+#maindiv a {
+  text-decoration: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: 0 0 100%;
+  background-color: whitesmoke;
+  min-height: 50px;
+  border: solid 5px #FF8C00;
+  border-style: outset;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  color: #000;
+}
+#maindiv a span {
+  width: 80%;
+  font-weight:500;
+}
+.icon-div{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-div img {
+  max-width: 85%;
+}
+.empty {
+  margin: 0;
+  padding: 25px;
+}
+
+#link-twitch span {
+  color: #A970FF;
+}
+.youtube span {
+  color: #ff0000;
+}
+#link-aosservtec span {
+  color: #005003;
+}
+#link-magalu span {
+  color: #005be4;
+}
+#section4 a {
+  border-color: #6F2E00;
+}
+
+footer {
+  padding: 20px;
+}
+footer * {
+  text-align: center;
+  font-size: small;
+  font-weight: 500;
+  color: #000;
+}
